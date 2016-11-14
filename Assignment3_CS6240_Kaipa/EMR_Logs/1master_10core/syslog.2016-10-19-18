@@ -1,0 +1,17 @@
+2016-10-19 18:58:03,116 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-19-114.ec2.internal/172.31.19.114:8032
+2016-10-19 18:58:04,822 WARN org.apache.hadoop.mapreduce.JobResourceUploader (main): Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2016-10-19 18:58:06,342 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 4
+2016-10-19 18:58:06,353 INFO com.hadoop.compression.lzo.GPLNativeCodeLoader (main): Loaded native gpl library
+2016-10-19 18:58:06,356 INFO com.hadoop.compression.lzo.LzoCodec (main): Successfully loaded & initialized native-lzo library [hadoop-lzo rev d3b0dff2e822276bf5b9409a0e30db8a3d1ed468]
+2016-10-19 18:58:07,241 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:106
+2016-10-19 18:58:08,880 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1476903372618_0001
+2016-10-19 18:58:09,578 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1476903372618_0001
+2016-10-19 18:58:09,894 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-19-114.ec2.internal:20888/proxy/application_1476903372618_0001/
+2016-10-19 18:58:09,896 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1476903372618_0001
+2016-10-19 18:58:21,123 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1476903372618_0001 running in uber mode : false
+2016-10-19 18:58:21,124 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2016-10-19 18:58:59,554 INFO org.apache.hadoop.mapreduce.Job (main):  map 1% reduce 0%
+2016-10-19 18:59:15,626 INFO org.apache.hadoop.mapreduce.Job (main):  map 2% reduce 0%
+2016-10-19 18:59:29,701 INFO org.apache.hadoop.mapreduce.Job (main):  map 3% reduce 0%
+2016-10-19 18:59:41,758 INFO org.apache.hadoop.mapreduce.Job (main):  map 4% reduce 0%
+2016-10-19 18:59:52,812 INFO org.apache.hadoop.mapreduce.Job (main):  map 5% reduce 0%

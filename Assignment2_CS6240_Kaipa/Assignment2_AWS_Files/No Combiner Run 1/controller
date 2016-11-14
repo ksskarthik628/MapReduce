@@ -1,0 +1,59 @@
+2016-10-06T02:24:09.355Z INFO Ensure step 2 jar file s3://hadoop-cs6240/assignment2-0.0.1-SNAPSHOT.jar
+2016-10-06T02:24:10.930Z INFO StepRunner: Created Runner for step 2
+INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-32KBLQJ6X3O8K/assignment2-0.0.1-SNAPSHOT.jar assignment2.NoCombiner s3://hadoop-cs6240/input1 s3://hadoop-cs6240/output-no-combiner'
+INFO Environment:
+  PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/opt/aws/bin
+  LESS_TERMCAP_md=[01;38;5;208m
+  LESS_TERMCAP_me=[0m
+  HISTCONTROL=ignoredups
+  LESS_TERMCAP_mb=[01;31m
+  AWS_AUTO_SCALING_HOME=/opt/aws/apitools/as
+  UPSTART_JOB=rc
+  LESS_TERMCAP_se=[0m
+  HISTSIZE=1000
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  JAVA_HOME=/etc/alternatives/jre
+  AWS_DEFAULT_REGION=us-east-1
+  AWS_ELB_HOME=/opt/aws/apitools/elb
+  LESS_TERMCAP_us=[04;38;5;111m
+  EC2_HOME=/opt/aws/apitools/ec2
+  TERM=linux
+  XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+  runlevel=3
+  LANG=en_US.UTF-8
+  AWS_CLOUDWATCH_HOME=/opt/aws/apitools/mon
+  MAIL=/var/spool/mail/hadoop
+  LESS_TERMCAP_ue=[0m
+  LOGNAME=hadoop
+  PWD=/
+  LANGSH_SOURCED=1
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-32KBLQJ6X3O8K/tmp
+  _=/etc/alternatives/jre/bin/java
+  CONSOLETYPE=serial
+  RUNLEVEL=3
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  previous=N
+  UPSTART_EVENTS=runlevel
+  AWS_PATH=/opt/aws
+  USER=hadoop
+  UPSTART_INSTANCE=
+  PREVLEVEL=N
+  HADOOP_LOGFILE=syslog
+  HOSTNAME=ip-172-31-0-29
+  NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-32KBLQJ6X3O8K
+  EC2_AMITOOL_HOME=/opt/aws/amitools/ec2
+  SHLVL=5
+  HOME=/home/hadoop
+  HADOOP_IDENT_STRING=hadoop
+INFO redirectOutput to /mnt/var/log/hadoop/steps/s-32KBLQJ6X3O8K/stdout
+INFO redirectError to /mnt/var/log/hadoop/steps/s-32KBLQJ6X3O8K/stderr
+INFO Working dir /mnt/var/lib/hadoop/steps/s-32KBLQJ6X3O8K
+INFO ProcessRunner started child process 7104 :
+hadoop    7104  3034  0 02:24 ?        00:00:00 /etc/alternatives/jre/bin/java -Xmx1000m -server -XX:OnOutOfMemoryError=kill -9 %p -Dhadoop.log.dir=/mnt/var/log/hadoop/steps/s-32KBLQJ6X3O8K -Dhadoop.log.file=syslog -Dhadoop.home.dir=/usr/lib/hadoop -Dhadoop.id.str=hadoop -Dhadoop.root.logger=INFO,DRFA -Djava.library.path=:/usr/lib/hadoop-lzo/lib/native:/usr/lib/hadoop/lib/native -Dhadoop.policy.file=hadoop-policy.xml -Djava.net.preferIPv4Stack=true -Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-32KBLQJ6X3O8K/tmp -Dhadoop.security.logger=INFO,NullAppender -Dsun.net.inetaddr.ttl=30 org.apache.hadoop.util.RunJar /mnt/var/lib/hadoop/steps/s-32KBLQJ6X3O8K/assignment2-0.0.1-SNAPSHOT.jar assignment2.NoCombiner s3://hadoop-cs6240/input1 s3://hadoop-cs6240/output-no-combiner
+2016-10-06T02:24:14.973Z INFO HadoopJarStepRunner.Runner: startRun() called for s-32KBLQJ6X3O8K Child Pid: 7104
+INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-32KBLQJ6...
+INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-32KBLQJ6...
+INFO total process run time: 80 seconds
+2016-10-06T02:25:33.104Z INFO Step created jobs: job_1475720513737_0001
+2016-10-06T02:25:33.105Z INFO Step succeeded with exitCode 0 and took 80 seconds

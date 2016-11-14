@@ -1,0 +1,59 @@
+2016-10-06T03:17:40.512Z INFO Ensure step 2 jar file s3://hadoop-cs6240/assignment2-0.0.1-SNAPSHOT.jar
+2016-10-06T03:17:42.628Z INFO StepRunner: Created Runner for step 2
+INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-X1U4ITT821OE/assignment2-0.0.1-SNAPSHOT.jar assignment2.InMapperCombiner s3://hadoop-cs6240/input1 s3://hadoop-cs6240/output-in-mapper-combiner'
+INFO Environment:
+  PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/opt/aws/bin
+  LESS_TERMCAP_md=[01;38;5;208m
+  LESS_TERMCAP_me=[0m
+  HISTCONTROL=ignoredups
+  LESS_TERMCAP_mb=[01;31m
+  AWS_AUTO_SCALING_HOME=/opt/aws/apitools/as
+  UPSTART_JOB=rc
+  LESS_TERMCAP_se=[0m
+  HISTSIZE=1000
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  JAVA_HOME=/etc/alternatives/jre
+  AWS_DEFAULT_REGION=us-east-1
+  AWS_ELB_HOME=/opt/aws/apitools/elb
+  LESS_TERMCAP_us=[04;38;5;111m
+  EC2_HOME=/opt/aws/apitools/ec2
+  TERM=linux
+  XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+  runlevel=3
+  LANG=en_US.UTF-8
+  AWS_CLOUDWATCH_HOME=/opt/aws/apitools/mon
+  MAIL=/var/spool/mail/hadoop
+  LESS_TERMCAP_ue=[0m
+  LOGNAME=hadoop
+  PWD=/
+  LANGSH_SOURCED=1
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-X1U4ITT821OE/tmp
+  _=/etc/alternatives/jre/bin/java
+  CONSOLETYPE=serial
+  RUNLEVEL=3
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  previous=N
+  UPSTART_EVENTS=runlevel
+  AWS_PATH=/opt/aws
+  USER=hadoop
+  UPSTART_INSTANCE=
+  PREVLEVEL=N
+  HADOOP_LOGFILE=syslog
+  HOSTNAME=ip-172-31-6-178
+  NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-X1U4ITT821OE
+  EC2_AMITOOL_HOME=/opt/aws/amitools/ec2
+  SHLVL=5
+  HOME=/home/hadoop
+  HADOOP_IDENT_STRING=hadoop
+INFO redirectOutput to /mnt/var/log/hadoop/steps/s-X1U4ITT821OE/stdout
+INFO redirectError to /mnt/var/log/hadoop/steps/s-X1U4ITT821OE/stderr
+INFO Working dir /mnt/var/lib/hadoop/steps/s-X1U4ITT821OE
+INFO ProcessRunner started child process 7164 :
+hadoop    7164  3159  0 03:17 ?        00:00:00 bash /usr/lib/hadoop/bin/hadoop jar /mnt/var/lib/hadoop/steps/s-X1U4ITT821OE/assignment2-0.0.1-SNAPSHOT.jar assignment2.InMapperCombiner s3://hadoop-cs6240/input1 s3://hadoop-cs6240/output-in-mapper-combiner
+2016-10-06T03:17:44.689Z INFO HadoopJarStepRunner.Runner: startRun() called for s-X1U4ITT821OE Child Pid: 7164
+INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-X1U4ITT8...
+INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-X1U4ITT8...
+INFO total process run time: 78 seconds
+2016-10-06T03:19:00.949Z INFO Step created jobs: job_1475723729562_0001
+2016-10-06T03:19:00.950Z INFO Step succeeded with exitCode 0 and took 78 seconds
