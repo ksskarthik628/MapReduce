@@ -1,0 +1,67 @@
+2016-11-18T23:04:00.640Z INFO Ensure step 2 jar file s3://hadoop-cs6240/assignment5-0.0.1-SNAPSHOT.jar
+2016-11-18T23:04:03.231Z INFO StepRunner: Created Runner for step 2
+INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-18DWXMZT6VH0X/assignment5-0.0.1-SNAPSHOT.jar assignment5.Driver s3://hadoop-cs6240/input s3://hadoop-cs6240/PR-RC-6 rowByColumn'
+INFO Environment:
+  PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/opt/aws/bin
+  LESS_TERMCAP_md=[01;38;5;208m
+  LESS_TERMCAP_me=[0m
+  HISTCONTROL=ignoredups
+  LESS_TERMCAP_mb=[01;31m
+  AWS_AUTO_SCALING_HOME=/opt/aws/apitools/as
+  UPSTART_JOB=rc
+  LESS_TERMCAP_se=[0m
+  HISTSIZE=1000
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  JAVA_HOME=/etc/alternatives/jre
+  AWS_DEFAULT_REGION=us-east-1
+  AWS_ELB_HOME=/opt/aws/apitools/elb
+  LESS_TERMCAP_us=[04;38;5;111m
+  EC2_HOME=/opt/aws/apitools/ec2
+  TERM=linux
+  XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+  runlevel=3
+  LANG=en_US.UTF-8
+  AWS_CLOUDWATCH_HOME=/opt/aws/apitools/mon
+  MAIL=/var/spool/mail/hadoop
+  LESS_TERMCAP_ue=[0m
+  LOGNAME=hadoop
+  PWD=/
+  LANGSH_SOURCED=1
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-18DWXMZT6VH0X/tmp
+  _=/etc/alternatives/jre/bin/java
+  CONSOLETYPE=serial
+  RUNLEVEL=3
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  previous=N
+  UPSTART_EVENTS=runlevel
+  AWS_PATH=/opt/aws
+  USER=hadoop
+  UPSTART_INSTANCE=
+  PREVLEVEL=N
+  HADOOP_LOGFILE=syslog
+  HOSTNAME=ip-172-31-14-110
+  NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-18DWXMZT6VH0X
+  EC2_AMITOOL_HOME=/opt/aws/amitools/ec2
+  SHLVL=5
+  HOME=/home/hadoop
+  HADOOP_IDENT_STRING=hadoop
+INFO redirectOutput to /mnt/var/log/hadoop/steps/s-18DWXMZT6VH0X/stdout
+INFO redirectError to /mnt/var/log/hadoop/steps/s-18DWXMZT6VH0X/stderr
+INFO Working dir /mnt/var/lib/hadoop/steps/s-18DWXMZT6VH0X
+INFO ProcessRunner started child process 7618 :
+hadoop    7618  3276  0 23:04 ?        00:00:00 bash /usr/lib/hadoop/bin/hadoop jar /mnt/var/lib/hadoop/steps/s-18DWXMZT6VH0X/assignment5-0.0.1-SNAPSHOT.jar assignment5.Driver s3://hadoop-cs6240/input s3://hadoop-cs6240/PR-RC-6 rowByColumn
+2016-11-18T23:04:07.278Z INFO HadoopJarStepRunner.Runner: startRun() called for s-18DWXMZT6VH0X Child Pid: 7618
+INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-18DWXMZT...
+INFO Process still running
+INFO Process still running
+INFO Process still running
+INFO Process still running
+INFO Process still running
+INFO Process still running
+INFO Process still running
+INFO Process still running
+INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-18DWXMZT...
+INFO total process run time: 7226 seconds
+2016-11-19T01:04:32.318Z INFO Step created jobs: job_1479510093765_0001,job_1479510093765_0002,job_1479510093765_0003,job_1479510093765_0004,job_1479510093765_0005,job_1479510093765_0006,job_1479510093765_0007,job_1479510093765_0008,job_1479510093765_0009,job_1479510093765_0010,job_1479510093765_0011,job_1479510093765_0012,job_1479510093765_0013,job_1479510093765_0014,job_1479510093765_0015,job_1479510093765_0016
+2016-11-19T01:04:32.318Z INFO Step succeeded with exitCode 0 and took 7227 seconds

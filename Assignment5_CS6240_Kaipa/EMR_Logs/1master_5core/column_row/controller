@@ -1,0 +1,71 @@
+2016-11-19T01:18:18.878Z INFO Ensure step 2 jar file s3://hadoop-cs6240/assignment5-0.0.1-SNAPSHOT.jar
+2016-11-19T01:18:21.073Z INFO StepRunner: Created Runner for step 2
+INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-2ESLJBJ2Z6OSC/assignment5-0.0.1-SNAPSHOT.jar assignment5.Driver s3://hadoop-cs6240/input s3://hadoop-cs6240/PR-CR-6 columnByRow'
+INFO Environment:
+  PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/opt/aws/bin
+  LESS_TERMCAP_md=[01;38;5;208m
+  LESS_TERMCAP_me=[0m
+  HISTCONTROL=ignoredups
+  LESS_TERMCAP_mb=[01;31m
+  AWS_AUTO_SCALING_HOME=/opt/aws/apitools/as
+  UPSTART_JOB=rc
+  LESS_TERMCAP_se=[0m
+  HISTSIZE=1000
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  JAVA_HOME=/etc/alternatives/jre
+  AWS_DEFAULT_REGION=us-east-1
+  AWS_ELB_HOME=/opt/aws/apitools/elb
+  LESS_TERMCAP_us=[04;38;5;111m
+  EC2_HOME=/opt/aws/apitools/ec2
+  TERM=linux
+  XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+  runlevel=3
+  LANG=en_US.UTF-8
+  AWS_CLOUDWATCH_HOME=/opt/aws/apitools/mon
+  MAIL=/var/spool/mail/hadoop
+  LESS_TERMCAP_ue=[0m
+  LOGNAME=hadoop
+  PWD=/
+  LANGSH_SOURCED=1
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-2ESLJBJ2Z6OSC/tmp
+  _=/etc/alternatives/jre/bin/java
+  CONSOLETYPE=serial
+  RUNLEVEL=3
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  previous=N
+  UPSTART_EVENTS=runlevel
+  AWS_PATH=/opt/aws
+  USER=hadoop
+  UPSTART_INSTANCE=
+  PREVLEVEL=N
+  HADOOP_LOGFILE=syslog
+  HOSTNAME=ip-172-31-30-5
+  NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-2ESLJBJ2Z6OSC
+  EC2_AMITOOL_HOME=/opt/aws/amitools/ec2
+  SHLVL=5
+  HOME=/home/hadoop
+  HADOOP_IDENT_STRING=hadoop
+INFO redirectOutput to /mnt/var/log/hadoop/steps/s-2ESLJBJ2Z6OSC/stdout
+INFO redirectError to /mnt/var/log/hadoop/steps/s-2ESLJBJ2Z6OSC/stderr
+INFO Working dir /mnt/var/lib/hadoop/steps/s-2ESLJBJ2Z6OSC
+INFO ProcessRunner started child process 7478 :
+hadoop    7478  3283  0 01:18 ?        00:00:00 bash /usr/lib/hadoop/bin/hadoop jar /mnt/var/lib/hadoop/steps/s-2ESLJBJ2Z6OSC/assignment5-0.0.1-SNAPSHOT.jar assignment5.Driver s3://hadoop-cs6240/input s3://hadoop-cs6240/PR-CR-6 columnByRow
+2016-11-19T01:18:23.144Z INFO HadoopJarStepRunner.Runner: startRun() called for s-2ESLJBJ2Z6OSC Child Pid: 7478
+INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-2ESLJBJ2...
+INFO Process still running
+INFO Process still running
+INFO Process still running
+INFO Process still running
+INFO Process still running
+INFO Process still running
+INFO Process still running
+INFO Process still running
+INFO Process still running
+INFO Process still running
+INFO Process still running
+INFO Process still running
+INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-2ESLJBJ2...
+INFO total process run time: 11604 seconds
+2016-11-19T04:31:45.741Z INFO Step created jobs: job_1479518167704_0001,job_1479518167704_0002,job_1479518167704_0003,job_1479518167704_0004,job_1479518167704_0005,job_1479518167704_0006,job_1479518167704_0007,job_1479518167704_0008,job_1479518167704_0009,job_1479518167704_0010,job_1479518167704_0011,job_1479518167704_0012,job_1479518167704_0013,job_1479518167704_0014,job_1479518167704_0015,job_1479518167704_0016,job_1479518167704_0017,job_1479518167704_0018,job_1479518167704_0019,job_1479518167704_0020,job_1479518167704_0021,job_1479518167704_0022,job_1479518167704_0023,job_1479518167704_0024,job_1479518167704_0025,job_1479518167704_0026
+2016-11-19T04:31:45.742Z INFO Step succeeded with exitCode 0 and took 11604 seconds
